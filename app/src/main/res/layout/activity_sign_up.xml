@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.SignUpActivity">
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:text="@string/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textColor="@color/text_color"
+        android:id="@+id/edtname"
+        android:hint="@string/enter_name"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="monospace"
+        android:hint="@string/enter_email"
+        android:padding="10dp"
+        android:textColor="@color/text_color" />
+
+    <EditText
+        android:textColor="@color/text_color"
+        android:id="@+id/edtPass"
+        android:hint="@string/enter_password"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="@color/text_color"
+        android:id="@+id/edtConfirmPass"
+        android:hint="@string/confirm_password"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginHorizontal="15dp"
+            android:id="@+id/btnSignUp"
+            android:fontFamily="monospace"
+            android:text="@string/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:backgroundTint="@color/background_darkGray"
+            android:id="@+id/btnLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="15dp"
+            android:fontFamily="monospace"
+            android:text="@string/log_in" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185308312544",
+    "project_id": "chatapp-96fdd",
+    "storage_bucket": "chatapp-96fdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185308312544:android:84faa1b1ab54711c1ab185",
+        "android_client_info": {
+          "package_name": "com.hmduc.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185308312544-vcbclihtcv43te6cov1hsh4nvm6ni64l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA790LIWQ8dCH8MleMHx43eu2Is1dihjvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185308312544-vcbclihtcv43te6cov1hsh4nvm6ni64l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
